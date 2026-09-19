@@ -25,7 +25,8 @@ jobs:
       - name: Décompresser Filou AI Video V5
         run: |
           mkdir -p filou-v5
-          unzip -o FilouAIVideo_V5.zip -d filou-v5
+          unzip -o FilouAIVideo_V5.zip 
+          -d filou-v5
 
       - name: Compiler l'APK
         working-directory: filou-v5
